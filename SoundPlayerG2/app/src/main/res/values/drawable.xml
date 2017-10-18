@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="play" >@drawable/ic_play_circle_outline_black_48dp </drawable>
+    <drawable name="pause" >@drawable/ic_pause_circle_outline_black_48dp </drawable>
+    <drawable name="stop" >@drawable/ic_stop_black_48dp </drawable>
+</resources>

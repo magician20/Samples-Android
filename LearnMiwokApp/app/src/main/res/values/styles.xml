@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--
+        Ripple effect frameLayout textview
+        this style for frameLayout
+         -->
+    <style name="CategoryFrameView"      >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <!--
+    parent="@style/CodeFontTextView"  work also
+    this is first activity Views looks like
+     -->
+    <style name="CategoryTextView" parent="CodeFontTextView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="CodeFontTextView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+
+    <style name="ItemFontTextView" parent="CodeFontTextView" >
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="ItemViewStyle" parent="ItemFontTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="NumbersActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/numbersActivityColorPrimary</item>
+        <item name="colorPrimaryDark">@color/numbersActivitycolorPrimaryDark</item>
+    </style>
+    <style name="ColorsActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorsActivitycolorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorsActivitycolorPrimaryDark</item>
+    </style>
+    <style name="FamillyActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/famillyActivitycolorPrimary</item>
+        <item name="colorPrimaryDark">@color/famillyActivitycolorPrimaryDark</item>
+    </style>
+    <style name="PhrasesActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/phrasesActivitycolorPrimary</item>
+        <item name="colorPrimaryDark">@color/phrasesActivitycolorPrimaryDark</item>
+    </style>
+
+
+</resources>

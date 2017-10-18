@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App Theme-->
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0277bd</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--category textview Style-->
+    <color name="colorNumbersTextView">#f9a825</color>
+    <color name="colorFamillyTextView">#e53935</color>
+    <color name="colorColorsTextView">#ad1457</color>
+    <color name="colorPhrasesTextView">#424242</color>
+    
+    <!--Item Views (ImageView)-->
+    <color name="imageViewBackground">#FFF7DA</color>
+
+    <!--Activity Numbers-->
+    <color name="numbersActivityColorPrimary">#ffeb3b</color>
+    <color name="numbersActivitycolorPrimaryDark">#fbc02d</color>
+    <!--Activity Colors-->
+    <color name="colorsActivitycolorPrimary">#e91e63</color>
+    <color name="colorsActivitycolorPrimaryDark">#c2185b</color>
+    <!--Activity Familly-->
+    <color name="famillyActivitycolorPrimary">#f44336</color>
+    <color name="famillyActivitycolorPrimaryDark">#d32f2f</color>
+    <!--Activity Phrases-->
+    <color name="phrasesActivitycolorPrimary">#9e9e9e</color>
+    <color name="phrasesActivitycolorPrimaryDark">#616161</color>
+
+
+</resources>
